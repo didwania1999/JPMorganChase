@@ -1,0 +1,25 @@
+From ccb8860d2c8b20c5d3d69ece5e276da5a27975a0 Mon Sep 17 00:00:00 2001
+From: Chandrika Deb <chandrikadeb7@gmail.com>
+Date: Fri, 29 May 2020 09:39:51 +0530
+Subject: [PATCH] Update Graph.tsx
+
+---
+ JPMC-tech-task-2-PY3/src/Graph.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/JPMC-tech-task-2-PY3/src/Graph.tsx b/JPMC-tech-task-2-PY3/src/Graph.tsx
+index 79094d5..fde27d6 100644
+--- a/JPMC-tech-task-2-PY3/src/Graph.tsx
++++ b/JPMC-tech-task-2-PY3/src/Graph.tsx
+@@ -54,7 +54,7 @@ class Graph extends Component<IProps, {}> {
+       elem.setAttribute('row-pivots', '["timestamp"]');
+       elem.setAttribute('columns','["top_ask_price"]');
+       elem.setAttribute('aggregates', `
+-      {"stock": "discount count",
++      {"stock": "distinct count",
+       "top_ask_price":"avg",
+       "top_bid_price": "avg",
+       "timestamp":"distinct count"}`)
+-- 
+2.25.1.windows.1
+
